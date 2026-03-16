@@ -1,0 +1,57 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins', sans-serif;
+background:#e77613;
+line-height:1.6;
+}
+
+/* tombol kembali */
+.back{
+display:inline-block;
+margin:20px;
+text-decoration:none;
+font-size:18px;
+color:black;
+font-weight:bold;
+}
+
+/* section tentang */
+.tentang{
+max-width:800px;
+margin:auto;
+background:rgb(235, 179, 139);
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tentang h1{
+text-align:center;
+margin-bottom:20px;
+}
+
+.tentang h2{
+margin-top:25px;
+}
+
+.tentang p{
+margin-top:10px;
+}
+
+.tentang ul{
+margin-top:10px;
+margin-left:20px;
+}
+
+footer{
+text-align:center;
+margin-top:30px;
+padding:20px;
+background:#333;
+color:white;
+}

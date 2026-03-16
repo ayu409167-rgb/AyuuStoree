@@ -1,0 +1,198 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family: Arial, sans-serif;
+background:#f5f5f5;
+}
+
+/* ================= NAVBAR ================= */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#eba564;
+padding:15px 50px;
+color:white;
+}
+
+nav h2{
+font-family:'Poppins', sans-serif;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+/* ================= BANNER ================= */
+
+.banner{
+text-align:center;
+padding:150px 20px;
+background-image:url("../GAMBAR/foto.jpg");
+background-size:cover;
+background-position:center;
+}
+
+.banner h1{
+font-size:40px;
+font-family:'Poppins', sans-serif;
+color:rgb(238, 228, 228);
+}
+
+.banner p{
+color:white;
+margin-top:10px;
+}
+
+/* ================= PRODUK ================= */
+
+.produk{
+text-align:center;
+padding:50px;
+background:#c58447;
+}
+
+.produk-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+width:220px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card h3{
+margin-top:10px;
+}
+
+button{
+background:#ff7a00;
+color:white;
+border:none;
+padding:10px;
+width:80px;
+border-radius:5px;
+cursor:pointer;
+margin-top:10px;
+}
+
+button a{
+text-decoration:none;
+color:white;
+}
+
+button:hover{
+background:#ff5500;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+text-align:center;
+padding:20px;
+background:#333;
+color:white;
+margin-top:30px;
+}
+
+@media (max-width:760px){
+
+nav{
+flex-direction:column;
+text-align:center;
+}
+
+nav ul{
+flex-direction:column;
+gap:15px;
+margin-top:10px;
+}
+
+.banner{
+padding:100px 20px;
+}
+
+.banner h1{
+font-size:30px;
+}
+
+.produk-container{
+flex-direction:column;
+align-items:center;
+}
+
+.card{
+width:80%;
+}
+
+}
+
+@media (max-width:480px){
+
+nav{
+padding:15px;
+}
+
+nav h2{
+font-size:20px;
+}
+
+nav ul{
+gap:10px;
+}
+
+.banner{
+padding:70px 10px;
+}
+
+.banner h1{
+font-size:22px;
+}
+
+.banner p{
+font-size:14px;
+}
+
+.produk{
+padding:20px;
+}
+
+.card{
+width:95%;
+}
+
+button{
+width:100px;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+}
